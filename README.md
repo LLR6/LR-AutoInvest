@@ -1,6 +1,8 @@
 <div align="center">
 
 # LR-AutoInvest
+
+中文 · [English](README_EN.md)
 ### 每天导入行情，连续记账，生成可解释的调仓草案。
 
 **行情导入 → 数据质检 → 连续模拟账户 → 每日计划 → 审计工作台**
