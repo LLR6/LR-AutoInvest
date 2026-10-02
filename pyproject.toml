@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lr-autoinvest"
+version = "0.1.0"
+description = "Auditable systematic investing research and offline paper execution"
+requires-python = ">=3.10"
+authors = [{name = "LLR6"}]
+dependencies = []
+
+[project.scripts]
+lr-autoinvest = "lr_autoinvest.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["lr_autoinvest*"]

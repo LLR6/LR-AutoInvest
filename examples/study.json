@@ -1,0 +1,450 @@
+{
+  "notice": "Synthetic paired experiment; no profitability inference for real markets.",
+  "seeds": 20,
+  "summary_by_cost_bps": {
+    "0": {
+      "median_return": 0.0540915560444708,
+      "min_return": -0.0677829595042152,
+      "max_return": 0.4405393601624801,
+      "negative_paths": 6,
+      "median_drawdown": 0.10841821386596712
+    },
+    "10": {
+      "median_return": 0.03862457422774479,
+      "min_return": -0.07469171297763588,
+      "max_return": 0.42236083297471816,
+      "negative_paths": 6,
+      "median_drawdown": 0.11237858433160991
+    },
+    "50": {
+      "median_return": -0.036365830310800484,
+      "min_return": -0.11529520897049661,
+      "max_return": 0.35154786218105816,
+      "negative_paths": 13,
+      "median_drawdown": 0.1365932799420712
+    }
+  },
+  "raw": [
+    {
+      "seed": 0,
+      "0": {
+        "total_return": 0.17068175925619467,
+        "max_drawdown": 0.13768183647121657,
+        "annualized_volatility": 0.07695542846815809,
+        "sharpe_zero_rf": 0.8986754292217578
+      },
+      "10": {
+        "total_return": 0.15581575629604316,
+        "max_drawdown": 0.14393180524175686,
+        "annualized_volatility": 0.07694718852059855,
+        "sharpe_zero_rf": 0.8289895656386224
+      },
+      "50": {
+        "total_return": -0.048107111608556186,
+        "max_drawdown": 0.15267909317672834,
+        "annualized_volatility": 0.061182049481808706,
+        "sharpe_zero_rf": -0.30777912302749183
+      }
+    },
+    {
+      "seed": 1,
+      "0": {
+        "total_return": 0.13059542436429172,
+        "max_drawdown": 0.06248684927132331,
+        "annualized_volatility": 0.07737058136847676,
+        "sharpe_zero_rf": 0.7050649110581764
+      },
+      "10": {
+        "total_return": 0.1123345657699204,
+        "max_drawdown": 0.06698619915581971,
+        "annualized_volatility": 0.07743526439658166,
+        "sharpe_zero_rf": 0.6162047039455618
+      },
+      "50": {
+        "total_return": 0.04186665850679927,
+        "max_drawdown": 0.0848622328132338,
+        "annualized_volatility": 0.07853669837683773,
+        "sharpe_zero_rf": 0.25861784896077245
+      }
+    },
+    {
+      "seed": 2,
+      "0": {
+        "total_return": 0.053787356159464395,
+        "max_drawdown": 0.126810516792201,
+        "annualized_volatility": 0.07807527211711265,
+        "sharpe_zero_rf": 0.3209357054200868
+      },
+      "10": {
+        "total_return": 0.03790421824250312,
+        "max_drawdown": 0.13415493297611536,
+        "annualized_volatility": 0.07818574940615682,
+        "sharpe_zero_rf": 0.23900344477093866
+      },
+      "50": {
+        "total_return": -0.012155435646181267,
+        "max_drawdown": 0.15329984166002797,
+        "annualized_volatility": 0.0792152271778657,
+        "sharpe_zero_rf": -0.025178912386790663
+      }
+    },
+    {
+      "seed": 3,
+      "0": {
+        "total_return": 0.18413023125363392,
+        "max_drawdown": 0.1261688458355148,
+        "annualized_volatility": 0.07587318729639442,
+        "sharpe_zero_rf": 0.9736402367738787
+      },
+      "10": {
+        "total_return": 0.16771740605512653,
+        "max_drawdown": 0.12930444794901097,
+        "annualized_volatility": 0.07582332842740266,
+        "sharpe_zero_rf": 0.8968963217241183
+      },
+      "50": {
+        "total_return": 0.10407399773136006,
+        "max_drawdown": 0.14175951105639428,
+        "annualized_volatility": 0.07633973052722161,
+        "sharpe_zero_rf": 0.5829414966081092
+      }
+    },
+    {
+      "seed": 4,
+      "0": {
+        "total_return": -0.0017844583033364003,
+        "max_drawdown": 0.13212507906448068,
+        "annualized_volatility": 0.06406596068545109,
+        "sharpe_zero_rf": 0.020254277283510067
+      },
+      "10": {
+        "total_return": -0.02028635089630082,
+        "max_drawdown": 0.14504169935904032,
+        "annualized_volatility": 0.06409357817283928,
+        "sharpe_zero_rf": -0.10232025990966319
+      },
+      "50": {
+        "total_return": -0.0647151873445363,
+        "max_drawdown": 0.15491101895479242,
+        "annualized_volatility": 0.05757948733729965,
+        "sharpe_zero_rf": -0.45924440295356295
+      }
+    },
+    {
+      "seed": 5,
+      "0": {
+        "total_return": 0.05386650177680008,
+        "max_drawdown": 0.06014445085230191,
+        "annualized_volatility": 0.06305602808703901,
+        "sharpe_zero_rf": 0.3809652554561423
+      },
+      "10": {
+        "total_return": 0.03934493021298646,
+        "max_drawdown": 0.061264768062400665,
+        "annualized_volatility": 0.06326027183009719,
+        "sharpe_zero_rf": 0.2878148832689853
+      },
+      "50": {
+        "total_return": -0.01696800181658209,
+        "max_drawdown": 0.07674258889424701,
+        "annualized_volatility": 0.0649163642046062,
+        "sharpe_zero_rf": -0.07828096640703643
+      }
+    },
+    {
+      "seed": 6,
+      "0": {
+        "total_return": 0.05431661031214152,
+        "max_drawdown": 0.08453941197363746,
+        "annualized_volatility": 0.07244073291317729,
+        "sharpe_zero_rf": 0.3429499527532891
+      },
+      "10": {
+        "total_return": 0.033569975952754794,
+        "max_drawdown": 0.09236388502011161,
+        "annualized_volatility": 0.07290385438560121,
+        "sharpe_zero_rf": 0.22674272270233503
+      },
+      "50": {
+        "total_return": -0.04576067190850852,
+        "max_drawdown": 0.1309945921971123,
+        "annualized_volatility": 0.07587701365189117,
+        "sharpe_zero_rf": -0.22120730235817948
+      }
+    },
+    {
+      "seed": 7,
+      "0": {
+        "total_return": 0.12533326426151925,
+        "max_drawdown": 0.11421522197732459,
+        "annualized_volatility": 0.07524123840185187,
+        "sharpe_zero_rf": 0.6967935655009606
+      },
+      "10": {
+        "total_return": 0.11253325177136086,
+        "max_drawdown": 0.11886795151306295,
+        "annualized_volatility": 0.07507333673987025,
+        "sharpe_zero_rf": 0.6341733208084824
+      },
+      "50": {
+        "total_return": 0.06253793051685386,
+        "max_drawdown": 0.1398873835348281,
+        "annualized_volatility": 0.07504624994165035,
+        "sharpe_zero_rf": 0.377013647871326
+      }
+    },
+    {
+      "seed": 8,
+      "0": {
+        "total_return": 0.027635321751835917,
+        "max_drawdown": 0.06927025442237755,
+        "annualized_volatility": 0.06974813854313557,
+        "sharpe_zero_rf": 0.19908349122701363
+      },
+      "10": {
+        "total_return": 0.009289486416734327,
+        "max_drawdown": 0.0703890631709253,
+        "annualized_volatility": 0.06991587889808985,
+        "sharpe_zero_rf": 0.0905583010106753
+      },
+      "50": {
+        "total_return": -0.061173391215084805,
+        "max_drawdown": 0.09834375850813282,
+        "annualized_volatility": 0.07157633092650013,
+        "sharpe_zero_rf": -0.33453777235894344
+      }
+    },
+    {
+      "seed": 9,
+      "0": {
+        "total_return": -0.023708467602214567,
+        "max_drawdown": 0.10677791342840215,
+        "annualized_volatility": 0.06372932011844265,
+        "sharpe_zero_rf": -0.12632367409841058
+      },
+      "10": {
+        "total_return": -0.03834361317043189,
+        "max_drawdown": 0.11106763135391617,
+        "annualized_volatility": 0.06373142055708195,
+        "sharpe_zero_rf": -0.2258488041026789
+      },
+      "50": {
+        "total_return": -0.09495337306145901,
+        "max_drawdown": 0.13329917634931432,
+        "annualized_volatility": 0.06472115556157094,
+        "sharpe_zero_rf": -0.6150759851642226
+      }
+    },
+    {
+      "seed": 10,
+      "0": {
+        "total_return": 0.033633756195668774,
+        "max_drawdown": 0.08957162105177852,
+        "annualized_volatility": 0.07569667140034525,
+        "sharpe_zero_rf": 0.22143974323620835
+      },
+      "10": {
+        "total_return": 0.013207965128682497,
+        "max_drawdown": 0.09398220862636808,
+        "annualized_volatility": 0.07614823911982732,
+        "sharpe_zero_rf": 0.11049975461529825
+      },
+      "50": {
+        "total_return": -0.0648351609315786,
+        "max_drawdown": 0.11555536967048041,
+        "annualized_volatility": 0.07899218652018908,
+        "sharpe_zero_rf": -0.3167843637102204
+      }
+    },
+    {
+      "seed": 11,
+      "0": {
+        "total_return": -0.01214928704303575,
+        "max_drawdown": 0.12967592085642854,
+        "annualized_volatility": 0.07528977740927575,
+        "sharpe_zero_rf": -0.03048726608010966
+      },
+      "10": {
+        "total_return": -0.031642299237902294,
+        "max_drawdown": 0.14282119167402652,
+        "annualized_volatility": 0.07536982090918187,
+        "sharpe_zero_rf": -0.14142988534135906
+      },
+      "50": {
+        "total_return": -0.11529520897049661,
+        "max_drawdown": 0.15277244820594282,
+        "annualized_volatility": 0.06280814691635507,
+        "sharpe_zero_rf": -0.7875715093707193
+      }
+    },
+    {
+      "seed": 12,
+      "0": {
+        "total_return": -0.01952781023388861,
+        "max_drawdown": 0.10941566757527865,
+        "annualized_volatility": 0.0697437617984448,
+        "sharpe_zero_rf": -0.08380265194329191
+      },
+      "10": {
+        "total_return": -0.0393235095330855,
+        "max_drawdown": 0.11368953730930365,
+        "annualized_volatility": 0.06987571073641217,
+        "sharpe_zero_rf": -0.20610269925173316
+      },
+      "50": {
+        "total_return": -0.1149132236568412,
+        "max_drawdown": 0.14813004236008254,
+        "annualized_volatility": 0.0714678056998982,
+        "sharpe_zero_rf": -0.6814780835566736
+      }
+    },
+    {
+      "seed": 13,
+      "0": {
+        "total_return": 0.2156358985569844,
+        "max_drawdown": 0.05240950385687981,
+        "annualized_volatility": 0.07272594257310322,
+        "sharpe_zero_rf": 1.1642848964242396
+      },
+      "10": {
+        "total_return": 0.19883279751013183,
+        "max_drawdown": 0.0535940556858292,
+        "annualized_volatility": 0.07288326429229063,
+        "sharpe_zero_rf": 1.0816946509520442
+      },
+      "50": {
+        "total_return": 0.13366939491821883,
+        "max_drawdown": 0.08590779344475574,
+        "annualized_volatility": 0.07424717052328782,
+        "sharpe_zero_rf": 0.7469500279718884
+      }
+    },
+    {
+      "seed": 14,
+      "0": {
+        "total_return": 0.18602272435935463,
+        "max_drawdown": 0.10742076015665558,
+        "annualized_volatility": 0.07515527941900217,
+        "sharpe_zero_rf": 0.9912242625774795
+      },
+      "10": {
+        "total_return": 0.17094511433560844,
+        "max_drawdown": 0.10964261277888943,
+        "annualized_volatility": 0.07553804646616212,
+        "sharpe_zero_rf": 0.9154406822268454
+      },
+      "50": {
+        "total_return": 0.1122721355710159,
+        "max_drawdown": 0.11850208234905035,
+        "annualized_volatility": 0.07772101072183596,
+        "sharpe_zero_rf": 0.6140881749925156
+      }
+    },
+    {
+      "seed": 15,
+      "0": {
+        "total_return": 0.09947648663816344,
+        "max_drawdown": 0.07307741210234464,
+        "annualized_volatility": 0.07482653019050113,
+        "sharpe_zero_rf": 0.5697574174617718
+      },
+      "10": {
+        "total_return": 0.08034570122840456,
+        "max_drawdown": 0.07531929654104008,
+        "annualized_volatility": 0.07492086304673662,
+        "sharpe_zero_rf": 0.4707204031287133
+      },
+      "50": {
+        "total_return": 0.0068709453589201885,
+        "max_drawdown": 0.0921278648668733,
+        "annualized_volatility": 0.07616393185501634,
+        "sharpe_zero_rf": 0.07585078122478069
+      }
+    },
+    {
+      "seed": 16,
+      "0": {
+        "total_return": 0.4405393601624801,
+        "max_drawdown": 0.05937570986927132,
+        "annualized_volatility": 0.0754005122124473,
+        "sharpe_zero_rf": 2.071547135979964
+      },
+      "10": {
+        "total_return": 0.42236083297471816,
+        "max_drawdown": 0.060495158615039735,
+        "annualized_volatility": 0.07546111301316977,
+        "sharpe_zero_rf": 1.9992197781491015
+      },
+      "50": {
+        "total_return": 0.35154786218105816,
+        "max_drawdown": 0.06497315112610813,
+        "annualized_volatility": 0.07642387230681877,
+        "sharpe_zero_rf": 1.6941933714717405
+      }
+    },
+    {
+      "seed": 17,
+      "0": {
+        "total_return": 0.09646293538145012,
+        "max_drawdown": 0.1401314566120101,
+        "annualized_volatility": 0.07363231316478751,
+        "sharpe_zero_rf": 0.5621835315599105
+      },
+      "10": {
+        "total_return": 0.08132924024717036,
+        "max_drawdown": 0.14326478191690994,
+        "annualized_volatility": 0.07381365943950212,
+        "sharpe_zero_rf": 0.48189254767608203
+      },
+      "50": {
+        "total_return": -0.0313069449002219,
+        "max_drawdown": 0.15399839059657305,
+        "annualized_volatility": 0.06072570959546266,
+        "sharpe_zero_rf": -0.18952089048236836
+      }
+    },
+    {
+      "seed": 18,
+      "0": {
+        "total_return": -0.0677829595042152,
+        "max_drawdown": 0.1532605063993734,
+        "annualized_volatility": 0.06507264649905525,
+        "sharpe_zero_rf": -0.42033487509833123
+      },
+      "10": {
+        "total_return": -0.07469171297763588,
+        "max_drawdown": 0.15462800007739652,
+        "annualized_volatility": 0.06286675948689961,
+        "sharpe_zero_rf": -0.48701492602097585
+      },
+      "50": {
+        "total_return": -0.09552451759862135,
+        "max_drawdown": 0.1553277326794068,
+        "annualized_volatility": 0.06196044589018207,
+        "sharpe_zero_rf": -0.64938255988514
+      }
+    },
+    {
+      "seed": 19,
+      "0": {
+        "total_return": -0.014397802010363336,
+        "max_drawdown": 0.1507176878881582,
+        "annualized_volatility": 0.06266316190135778,
+        "sharpe_zero_rf": -0.0659227926723439
+      },
+      "10": {
+        "total_return": -0.019340307105983667,
+        "max_drawdown": 0.15110959655628187,
+        "annualized_volatility": 0.06249894389542718,
+        "sharpe_zero_rf": -0.10004404129267555
+      },
+      "50": {
+        "total_return": -0.04142471572137907,
+        "max_drawdown": 0.1560363307729017,
+        "annualized_volatility": 0.06124351609034955,
+        "sharpe_zero_rf": -0.25955069083853577
+      }
+    }
+  ],
+  "median_paired_return_change_50_minus_10": -0.06781314011186607
+}
