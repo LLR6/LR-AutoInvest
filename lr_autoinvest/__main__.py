@@ -1,4 +1,5 @@
 import argparse
+import sys
 import csv
 import hashlib
 import html
@@ -70,6 +71,9 @@ def report(bars, output, source):
 
 
 def main():
+    if len(sys.argv) > 1 and sys.argv[1] == 'paper':
+        from .paper import main as paper_main
+        return paper_main(sys.argv[2:])
     parser = argparse.ArgumentParser(description='LR-AutoInvest offline paper research')
     sub = parser.add_subparsers(dest='command', required=True)
     demo = sub.add_parser('demo')

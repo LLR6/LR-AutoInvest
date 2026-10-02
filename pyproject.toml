@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lr-autoinvest"
-version = "0.1.0"
+version = "0.2.0"
 description = "Auditable systematic investing research and offline paper execution"
 requires-python = ">=3.10"
 authors = [{name = "LLR6"}]

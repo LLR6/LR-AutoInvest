@@ -1,0 +1,76 @@
+{
+  "dataset": "synthetic fixed-seed example, not live prices",
+  "first_sync": {
+    "status": "updated",
+    "new_days": 40,
+    "new_orders": 3,
+    "last_date": "2022-07-15",
+    "equity": 97658.43420931601,
+    "health": {
+      "status": "passed",
+      "latest": "2022-07-15",
+      "age_calendar_days": 0,
+      "excluded_future_days": 160,
+      "data_hash": "f1c44f99e89dee2352443639c125ee2059c3aa95b760c1586001ea3194013819"
+    }
+  },
+  "repeat_sync": {
+    "status": "unchanged",
+    "new_orders": 0,
+    "new_days": 0,
+    "health": {
+      "status": "passed",
+      "latest": "2022-07-15",
+      "age_calendar_days": 0,
+      "excluded_future_days": 160,
+      "data_hash": "f1c44f99e89dee2352443639c125ee2059c3aa95b760c1586001ea3194013819"
+    }
+  },
+  "plan": {
+    "mode": "proposal-only",
+    "as_of": "2022-07-15",
+    "signal_date": "2022-07-15",
+    "health": {
+      "status": "passed",
+      "latest": "2022-07-15",
+      "age_calendar_days": 0,
+      "excluded_future_days": 0,
+      "data_hash": "f1c44f99e89dee2352443639c125ee2059c3aa95b760c1586001ea3194013819"
+    },
+    "reason": "正动量排名选择，现金保留剩余比例",
+    "momentum_scores": {
+      "SYN_A": -0.07456611990393591,
+      "SYN_B": 0.047246005401376356,
+      "SYN_C": 0.03429626950579512
+    },
+    "target_weights": {
+      "SYN_A": 0.0,
+      "SYN_B": 0.6,
+      "SYN_C": 0.0
+    },
+    "estimated_orders": [
+      {
+        "symbol": "SYN_C",
+        "side": "sell",
+        "estimated_quantity": 500,
+        "reference_close": 101.90641116,
+        "estimated_cost": 50.95320558
+      },
+      {
+        "symbol": "SYN_B",
+        "side": "buy",
+        "estimated_quantity": 600,
+        "reference_close": 90.50661621,
+        "estimated_cost": 54.303969726000005
+      }
+    ],
+    "account_equity": 97658.43420931601,
+    "notice": "仅模拟调仓草案。数量基于最近收盘，不是成交承诺；下一开盘重新估值、检查现金、取整和计费。无实际下单。"
+  },
+  "dashboard": {
+    "status": "exported",
+    "dashboard": "examples/paper-demo/dashboard.html",
+    "audit": "verified"
+  },
+  "stale_import_blocked": "Stale data: latest bar is 2503 calendar days old; limit 4"
+}

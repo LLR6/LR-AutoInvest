@@ -1,0 +1,505 @@
+{
+  "mode": "offline-paper",
+  "audit": "verified",
+  "settings": {
+    "config": {
+      "cost_bps": 10.0,
+      "drawdown_stop": 0.15,
+      "initial_cash": 100000.0,
+      "lookback": 20,
+      "lot_size": 100,
+      "max_weight": 0.6,
+      "min_fee": 5,
+      "min_notional": 1000,
+      "rebalance": 10,
+      "signal_delay": 0
+    },
+    "engine_version": "0.2.0",
+    "max_age": 4,
+    "max_jump": 0.35,
+    "start": "2022-05-23",
+    "strategy": "momentum"
+  },
+  "curve": [
+    {
+      "cash": 40201.602062722,
+      "date": "2022-05-23",
+      "equity": 99683.64459872199,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 600.0
+      }
+    },
+    {
+      "cash": 40201.602062722,
+      "date": "2022-05-24",
+      "equity": 99393.336326722,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 600.0
+      }
+    },
+    {
+      "cash": 40201.602062722,
+      "date": "2022-05-25",
+      "equity": 100333.378406722,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 600.0
+      }
+    },
+    {
+      "cash": 40201.602062722,
+      "date": "2022-05-26",
+      "equity": 100388.021804722,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 600.0
+      }
+    },
+    {
+      "cash": 40201.602062722,
+      "date": "2022-05-27",
+      "equity": 100287.550670722,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 600.0
+      }
+    },
+    {
+      "cash": 40201.602062722,
+      "date": "2022-05-30",
+      "equity": 99338.571974722,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 600.0
+      }
+    },
+    {
+      "cash": 40201.602062722,
+      "date": "2022-05-31",
+      "equity": 98742.747512722,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 600.0
+      }
+    },
+    {
+      "cash": 40201.602062722,
+      "date": "2022-06-01",
+      "equity": 98984.984000722,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 600.0
+      }
+    },
+    {
+      "cash": 40201.602062722,
+      "date": "2022-06-02",
+      "equity": 98663.286500722,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 600.0
+      }
+    },
+    {
+      "cash": 40201.602062722,
+      "date": "2022-06-03",
+      "equity": 99559.05832472199,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 600.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-06",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-07",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-08",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-09",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-10",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-13",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-14",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-15",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-16",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-17",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-20",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-21",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-22",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-23",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-24",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-27",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-28",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-29",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-06-30",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 99482.78720305601,
+      "date": "2022-07-01",
+      "equity": 99482.78720305601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 0.0
+      }
+    },
+    {
+      "cash": 46705.22862931601,
+      "date": "2022-07-04",
+      "equity": 98695.311559316,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 500.0
+      }
+    },
+    {
+      "cash": 46705.22862931601,
+      "date": "2022-07-05",
+      "equity": 97812.38227431601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 500.0
+      }
+    },
+    {
+      "cash": 46705.22862931601,
+      "date": "2022-07-06",
+      "equity": 97547.49784931602,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 500.0
+      }
+    },
+    {
+      "cash": 46705.22862931601,
+      "date": "2022-07-07",
+      "equity": 97549.84042931601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 500.0
+      }
+    },
+    {
+      "cash": 46705.22862931601,
+      "date": "2022-07-08",
+      "equity": 97425.63683931601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 500.0
+      }
+    },
+    {
+      "cash": 46705.22862931601,
+      "date": "2022-07-11",
+      "equity": 96543.791714316,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 500.0
+      }
+    },
+    {
+      "cash": 46705.22862931601,
+      "date": "2022-07-12",
+      "equity": 96456.54778931601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 500.0
+      }
+    },
+    {
+      "cash": 46705.22862931601,
+      "date": "2022-07-13",
+      "equity": 96807.31720931601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 500.0
+      }
+    },
+    {
+      "cash": 46705.22862931601,
+      "date": "2022-07-14",
+      "equity": 97655.168449316,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 500.0
+      }
+    },
+    {
+      "cash": 46705.22862931601,
+      "date": "2022-07-15",
+      "equity": 97658.43420931601,
+      "halted": false,
+      "holdings": {
+        "SYN_A": 0.0,
+        "SYN_B": 0.0,
+        "SYN_C": 500.0
+      }
+    }
+  ],
+  "orders": [
+    {
+      "cost": 59.738659278,
+      "date": "2022-05-23",
+      "price": 99.56443213,
+      "quantity": 600,
+      "reason": "positive_momentum",
+      "side": "buy",
+      "signal_date": "2022-05-20",
+      "symbol": "SYN_C"
+    },
+    {
+      "cost": 59.340525666000005,
+      "date": "2022-06-06",
+      "price": 98.90087611,
+      "quantity": 600,
+      "reason": "no_positive_momentum",
+      "side": "sell",
+      "signal_date": "2022-06-03",
+      "symbol": "SYN_C"
+    },
+    {
+      "cost": 52.72483374,
+      "date": "2022-07-04",
+      "price": 105.44966748,
+      "quantity": 500,
+      "reason": "positive_momentum",
+      "side": "buy",
+      "signal_date": "2022-07-01",
+      "symbol": "SYN_C"
+    }
+  ],
+  "event_count": 2,
+  "cost_paid": 171.804018684,
+  "metrics": {
+    "annualized_volatility": 0.06455885045207764,
+    "max_drawdown": 0.03916278002821505,
+    "sharpe_zero_rf": -2.2800380832791136,
+    "total_return": -0.02341565790683986
+  }
+}

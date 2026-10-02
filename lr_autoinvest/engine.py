@@ -15,14 +15,19 @@ class Config:
     drawdown_stop: float = 0.15
     signal_delay: int = 0
     initial_cash: float = 100000.0
+    lot_size: int = 0
+    min_notional: float = 0.0
+    min_fee: float = 0.0
 
     def validate(self):
-        if any(not isinstance(x, int) or isinstance(x, bool) for x in (self.lookback, self.rebalance, self.signal_delay)):
+        if any(not isinstance(x, int) or isinstance(x, bool) for x in (self.lookback, self.rebalance, self.signal_delay, self.lot_size)):
             raise ValueError('Window, frequency and delay must be integers')
         if self.lookback < 2 or self.rebalance < 1 or self.signal_delay < 0:
             raise ValueError('Invalid window or execution delay')
         if not 0 <= self.max_weight <= 1 or not 0 < self.drawdown_stop <= 1:
             raise ValueError('Invalid risk limits')
+        if self.lot_size < 0 or self.min_notional < 0 or self.min_fee < 0:
+            raise ValueError('Invalid execution constraints')
         if not 0 <= self.cost_bps < 10000 or not self.initial_cash > 0:
             raise ValueError('Invalid costs or capital')
         if not all(math.isfinite(v) for v in asdict(self).values()):
@@ -109,10 +114,15 @@ def run(bars, config=Config(), start=0, end=None, strategy='momentum'):
                     delta = desired[s]-units[s]
                     qty = max(0.0, -delta if side == 'sell' else delta)
                     if side == 'buy':
-                        qty = min(qty, max(0, cash)/(opens[s]*(1+fee)))
-                    if qty < 1e-9:
+                        qty = min(qty, max(0, cash)/(opens[s]*(1+fee)), max(0, cash-config.min_fee)/opens[s])
+                    if config.lot_size:
+                        qty = math.floor((qty+1e-10)/config.lot_size)*config.lot_size
+                    if qty < 1e-9 or (qty*opens[s] < config.min_notional and not halted):
                         continue
-                    notional, charge = qty*opens[s], qty*opens[s]*fee
+                    notional = qty*opens[s]
+                    charge = max(notional*fee, config.min_fee)
+                    if side == 'sell' and cash+notional < charge:
+                        continue
                     units[s] += qty if side == 'buy' else -qty
                     cash += (-notional if side == 'buy' else notional)-charge
                     costs += charge

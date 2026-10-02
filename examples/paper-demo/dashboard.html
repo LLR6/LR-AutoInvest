@@ -1,0 +1,49 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>LR-AutoInvest 每日工作台</title><style>body{font-family:system-ui;max-width:1050px;margin:30px auto;padding:20px;color:#172033;background:#f4f7fb}section{background:white;padding:24px;border-radius:16px;margin:18px 0}table{width:100%;border-collapse:collapse}td,th{padding:10px;border-bottom:1px solid #ddd;text-align:left}pre{white-space:pre-wrap;overflow-wrap:anywhere}.good{color:#13734c}</style><h1>LR-AutoInvest 每日工作台</h1><p>合成数据演示 · 离线模拟账户 · 最近行情 2022-07-15 · 查看日 2022-07-15</p><section><h2>账户状态</h2><p class="good">审计链校验通过 · 2 个事件 · 3 笔模拟交易</p><h3>权益 97,658.43 / 现金 46,705.23</h3><p>累计成本 171.80 · 停止锁定 False</p><pre>{
+  &quot;SYN_A&quot;: 0.0,
+  &quot;SYN_B&quot;: 0.0,
+  &quot;SYN_C&quot;: 500.0
+}</pre></section><section><h2>下一输入交易日的调仓草案</h2><p>正动量排名选择，现金保留剩余比例</p><p>仅模拟调仓草案。数量基于最近收盘，不是成交承诺；下一开盘重新估值、检查现金、取整和计费。无实际下单。</p><pre>[
+  {
+    &quot;symbol&quot;: &quot;SYN_C&quot;,
+    &quot;side&quot;: &quot;sell&quot;,
+    &quot;estimated_quantity&quot;: 500,
+    &quot;reference_close&quot;: 101.90641116,
+    &quot;estimated_cost&quot;: 50.95320558
+  },
+  {
+    &quot;symbol&quot;: &quot;SYN_B&quot;,
+    &quot;side&quot;: &quot;buy&quot;,
+    &quot;estimated_quantity&quot;: 600,
+    &quot;reference_close&quot;: 90.50661621,
+    &quot;estimated_cost&quot;: 54.303969726000005
+  }
+]</pre><h3>动量证据与目标权重</h3><pre>{
+  &quot;scores&quot;: {
+    &quot;SYN_A&quot;: -0.07456611990393591,
+    &quot;SYN_B&quot;: 0.047246005401376356,
+    &quot;SYN_C&quot;: 0.03429626950579512
+  },
+  &quot;weights&quot;: {
+    &quot;SYN_A&quot;: 0.0,
+    &quot;SYN_B&quot;: 0.6,
+    &quot;SYN_C&quot;: 0.0
+  }
+}</pre></section><section><h2>最近 30 笔模拟交易</h2><table><tr><th>日期</th><th>资产</th><th>方向</th><th>份额</th><th>成本</th></tr><tr><td>2022-05-23</td><td>SYN_C</td><td>buy</td><td>600.0000</td><td>59.74</td></tr><tr><td>2022-06-06</td><td>SYN_C</td><td>sell</td><td>600.0000</td><td>59.34</td></tr><tr><td>2022-07-04</td><td>SYN_C</td><td>buy</td><td>500.0000</td><td>52.72</td></tr></table></section><section><h2>运行约定</h2><p>仅使用已完成日线；CSV 的复权口径和日期由导入者确认。账户记账不能证明行情真实。历史修订、过期行情和大幅跳变会阻止更新。哈希链可检测常见意外修改，不能抵抗能重写整个数据库的攻击者。</p><pre>{
+  &quot;config&quot;: {
+    &quot;cost_bps&quot;: 10.0,
+    &quot;drawdown_stop&quot;: 0.15,
+    &quot;initial_cash&quot;: 100000.0,
+    &quot;lookback&quot;: 20,
+    &quot;lot_size&quot;: 100,
+    &quot;max_weight&quot;: 0.6,
+    &quot;min_fee&quot;: 5,
+    &quot;min_notional&quot;: 1000,
+    &quot;rebalance&quot;: 10,
+    &quot;signal_delay&quot;: 0
+  },
+  &quot;engine_version&quot;: &quot;0.2.0&quot;,
+  &quot;max_age&quot;: 4,
+  &quot;max_jump&quot;: 0.35,
+  &quot;start&quot;: &quot;2022-05-23&quot;,
+  &quot;strategy&quot;: &quot;momentum&quot;
+}</pre></section></html>
